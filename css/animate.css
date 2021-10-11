@@ -1,0 +1,260 @@
+.st0{fill:#FFB15B;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#E8E8E8;}
+	.st3{fill:#34C57F;}
+	.st4{fill:#1B9BFD;}
+	.st5{fill:#FF5358;}
+	.st6{opacity:0.72;fill:#FFFFFF;enable-background:new    ;}
+	.st7{fill:#252E3B;}
+	.st8{fill:#6B7ADB;}
+	.st9{fill:url(#SVGID_2_);}
+	.st10{fill:#4855B0;}
+	.st11{fill:url(#SVGID_3_);}
+	.st12{fill:url(#SVGID_4_);}
+	.st13{fill:url(#SVGID_5_);}
+	.st14{fill:url(#SVGID_6_);}
+	.st15{fill:url(#SVGID_7_);}
+	.st16{fill:url(#SVGID_8_);}
+	.st17{fill:url(#SVGID_9_);}
+	.st18{fill:url(#SVGID_10_);}
+	.st19{fill:url(#SVGID_11_);}
+	.st20{fill:url(#SVGID_12_);}
+	.st21{fill:#FFAD55;}
+	.st22{fill:#E665A9;}
+	.st23{fill:#78C2FF;}
+	.st24{enable-background:new    ;}
+	.st25{fill:#FFFFFF;}
+	.st26{fill:#6AEAA6;stroke:#FFFFFF;stroke-width:1.9997;stroke-miterlimit:9.9988;}
+	.st27{fill:#13375B;}
+	.st28{fill:#F7A491;}
+	.st29{fill:#F48C7F;}
+	.st30{fill:#355389;}
+	.st31{fill:#86B1F2;}
+	.st32{fill:#9BC1F9;}
+	.st33{fill:#184655;}
+	.st34{fill:#F8A492;}
+	.st35{fill:#F47458;}
+	.st36{fill:#EEA987;}
+	.st37{fill:#3F4685;}
+	.st38{fill:url(#SVGID_13_);}
+	.st39{fill:url(#SVGID_14_);}
+	.st40{fill:url(#SVGID_15_);}
+	.st41{fill:#4A529C;}
+	.st42{fill:#EDDAD3;}
+	.st43{fill:#EEA886;}
+	.st44{fill:#163342;}
+	.st45{fill:#A77860;}
+	.st46{fill:#F0B90B;}
+	.st47{fill:#F7CF2B;}
+	.st48{fill:#F2F2F2;}
+	.st49{opacity:0.45;fill:#F8F8F8;enable-background:new    ;}
+	.st50{fill:#C9C9C9;}
+	.st51{fill:#E2E2E2;}
+	.st52{fill:#343434;}
+	.st53{fill:#8C8C8C;}
+	.st54{fill:#3C3C3B;}
+	.st55{fill:#141414;}
+	.st56{fill:#393939;}
+	.st57{fill:#2BAF83;}
+	.st58{fill:#26A17B;}
+	.st59{fill:#28B284;}
+	.st60{fill:#EFEFEF;}
+	.st61{fill:#F8BB66;}
+	.st62{fill:#F89829;}
+	.st63{opacity:0.46;fill:#F8F8F8;enable-background:new    ;}
+	.st64{fill:#EFAA88;}
+	.st65{fill:#DB9C7C;}
+	.st66{fill:#FCCCA2;}
+	.st67{fill:#DB9B7B;}
+	.st68{fill:#DE9673;}
+	.st69{fill:#363636;}
+	.st70{fill:#4D589E;}
+	.st71{fill:url(#SVGID_16_);}
+	.st72{fill:url(#SVGID_17_);}
+	.st73{fill:#0E3CA5;}
+	.st74{fill:#5493F7;}
+	.st75{fill:#BC2020;}
+	.st76{fill:url(#SVGID_18_);}
+	.st77{fill:url(#SVGID_19_);}
+	.st78{fill:url(#SVGID_20_);}
+	.st79{fill:#DF3030;}
+	.st80{fill:url(#SVGID_21_);}
+	.st81{fill:url(#SVGID_22_);}
+	.st82{fill:url(#SVGID_23_);}
+
+	/* pic about */
+	.st83{fill:url(#back_1_);}
+	.st84{fill:#B8B8B8;}
+	.st85{fill:#FFBFB8;}
+	.st86{opacity:0.1;fill:#382c2b}
+	.st87{opacity:0.5;fill:#FFFFFF;}
+	.st88{fill:#1C1C1C;}
+	.st89{fill:#34C57F;}
+	.st90{fill:#FFFFFF;}
+	.st91{fill:#e7978d;}
+	.st92{fill:#e7978d;}
+	.st93{fill:#e7978d;}
+	.st94{opacity:0.15;fill:#1C1C1C;}
+	.st95{fill:none;stroke:#2261FF;stroke-width:0.6294;stroke-miterlimit:10;}
+	.st96{fill:#1B9BFD;}
+	.st97{fill:#22CBFF;}
+	.st98{fill:#F7931A;}
+	.st99{fill:#F0B90B;}
+	.st100{fill:url(#SVGID_6_);}
+	.st101{fill:#0E3CA5;}
+	.st102{fill:#5493F7;}
+	.st103{fill:#BC2020;}
+	.st104{fill:#DF3030;}
+	.st105{fill:#DF3030;}
+	.st106{fill:#DF3030;}
+	.st107{fill:#DF3030;}
+	.st108{fill:#DF3030;}
+	.st109{fill:#DF3030;}
+	.st110{fill:#DF3030;}
+	.st111{fill:#26A17B;}
+	.st112{fill:#EFEFEF;}
+	/* Animate  */
+	#hand1 {
+		animation: hand1 1s ease-in-out infinite alternate ;
+		transform-origin: left;
+		transform-box: fill-box;
+	}
+	@keyframes hand1{
+		from {
+			transform: rotateZ(0deg);
+		}
+		to{
+			transform: rotateZ(-15deg);
+		}
+	}
+	#brand{
+		animation: brand 0.8s ease-out  infinite alternate;
+		transform-origin: bottom;
+		transform-box: fill-box;
+	}
+	@keyframes brand {
+		from{
+			transform: translateY(0px) rotateZ(0deg);
+		}
+		to{
+			transform: translateY(-10px) rotateZ(-5deg);
+		}
+	}
+	#hand2{
+	animation: hand2 3s ease-in infinite alternate;
+	transform-origin: top;
+	transform-box: fill-box;
+	}
+	@keyframes hand2 {
+		from{
+			transform: rotateZ(0deg) translateX(0px);
+		}
+		to{
+			transform: rotateZ(10deg) translateX(2px);
+		}
+	}
+	#coin{
+		animation: coin 3s ease-in  infinite alternate;
+		transform-origin: center;
+		transform-box: fill-box;
+	}
+	@keyframes coin {
+		from{
+			transform: rotateY(0deg);
+		}
+		to{
+			transform: rotateY(20deg);
+		}
+	}
+	#hand3{
+		animation: hand3 1s ease  infinite alternate;
+		transform-origin: bottom;
+		transform-box: fill-box;
+	}
+	@keyframes hand3 {
+		from{
+			transform: rotateZ(0deg) translateY(0px);
+		}
+		to{
+			transform: rotateZ(-20deg) translateY(-5px);
+		}
+	}
+	#hand3_1_{
+		animation: hand3_1_ 1s ease  infinite alternate;
+		transform-origin: bottom;
+		transform-box: fill-box;
+	}
+	@keyframes hand3_1_ {
+		from{
+			transform: rotateZ(0deg) translateY(0px);
+		}
+		to{
+			transform: rotateZ(10deg) translateY(2px);
+		}
+	}
+	/* Animate About */
+	#hand{
+		animation: hand 1s ease  infinite alternate;
+		transform-origin: bottom;
+		transform-box: fill-box;
+	}
+	@keyframes hand {
+		from{
+			transform: rotateY(0deg) translateY(0px);
+		}
+		to{
+			transform: rotateY(5deg) translateY(5px);
+		}
+	}
+	#coin1_1_{
+		animation: coin1_1_ 1s ease  infinite alternate;
+		transform-origin: center;
+		transform-box: fill-box;
+	}
+	@keyframes coin1_1_ {
+		from{
+			transform:  translateY(2px) rotateZ(5deg);
+		}
+		to{
+			transform: translateY(-5px) rotateZ(-5deg);
+		}
+	}
+	#coin2{
+		animation: coin2 1s ease  infinite alternate;
+		transform-origin: center;
+		transform-box: fill-box;
+	}
+	@keyframes coin2 {
+		from{
+			transform:  translateY(2px);
+		}
+		to{
+			transform: translateY(5px);
+		}
+	}
+	#coin3{
+		animation: coin3 1s ease-in-out  infinite alternate;
+		transform-origin: center;
+		transform-box: fill-box;
+	}
+	@keyframes coin3 {
+		from{
+			transform:  translateY(2px) rotateZ(-5deg);
+		}
+		to{
+			transform: translateY(-2px) rotateZ(5deg);
+		}
+	}
+	#coin4{
+		animation: coin4 1s ease infinite alternate;
+		transform-origin: center;
+		transform-box: fill-box;
+	}
+	@keyframes coin4 {
+		from{
+			transform:  translateY(-2px) rotateZ(-5deg);
+		}
+		to{
+			transform: translateY(2px) rotateZ(5deg);
+		}
+	}
