@@ -260,7 +260,10 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.65);
   height: 38px;
   padding: 6px 20px 0 20px;
   transition: .2s;
+  text-align: center;
   text-decoration: none;
+  width: 150px;
+  opacity: 0.5;
 }
 .launch:hover{
 box-shadow: 0px 0px 8px 1px rgba(18,203,230,0.75);
@@ -280,12 +283,15 @@ box-shadow: 0px 0px 8px 1px rgba(18,203,230,0.75);
   transition: .2s;
   text-decoration: none;
   margin-top: 20px;
+  opacity: 0.5;
 }
 .launch2:hover{
   box-shadow: 0px 0px 8px 1px rgba(18,203,230,0.75);
   -webkit-box-shadow: 0px 0px 8px 1px rgba(18,203,230,0.75);
   -moz-box-shadow: 0px 0px 8px 1px rgba(18,203,230,0.75);
 }
+.launch:after,.launch2:after{content:'Launch App';}
+.launch:hover:after,.launch2:hover:after{content:'coming soon';}
 /* Hambergermenu */
 .nav-toggle{
   display: none;
@@ -485,12 +491,17 @@ opacity: 1;
   border-radius: 8px;
   font-size: 26px!important;
   color: #34C57F;
+  opacity: 0.5;
   text-decoration: none;
-  padding: 5px 5px;
+  padding: 10px 5px 5px 5px; /* default 5px 5px */
   min-width: 280px;
   border: solid 2px #fff;
   background-color: #fff;
+  line-height: .5em; /* text comimg soon*/
 
+}
+.small-text{
+  font-size: 12px;
 }
 /*Overlay*/
 .nav-bottom{
@@ -1092,6 +1103,7 @@ body.menu-open .nav-bottom{
   .subnav4, .subnav5{
     display: block;
   }
+
   .container-menu a:hover:before, .container-menu a:hover:after{
     opacity: 0;
   }
